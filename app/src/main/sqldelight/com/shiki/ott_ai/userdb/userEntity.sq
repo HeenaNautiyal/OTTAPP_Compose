@@ -1,0 +1,23 @@
+CREATE TABLE userEntity (
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+firstName TEXT NOT NULL,
+lastName TEXT NOT NULL,
+password TEXT NOT NULL
+);
+
+getUserByName:
+SELECT *
+FROM userEntity
+WHERE firstName = :firstName;
+
+getAllUsers:
+SELECT *
+FROM userEntity;
+
+insertUser:
+INSERT INTO userEntity(firstName, lastName, password)
+VALUES (?, ?, ?);
+
+deleteUserById:
+DELETE FROM userEntity
+WHERE id = :id;
