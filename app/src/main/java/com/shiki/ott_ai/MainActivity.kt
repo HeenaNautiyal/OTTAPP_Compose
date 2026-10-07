@@ -124,10 +124,9 @@ class MainActivity : ComponentActivity() {
                                 HomeScreen(
                                     modifier = Modifier.padding(innerPadding),
                                     viewModel = homeViewModel,
-                                    onMovieClick = { movieId ->
-                                        navController.navigate("details/$movieId")
-                                    },
-                                )
+                                ) { movieId ->
+                                    navController.navigate("details/$movieId")
+                                }
                             }
                         }
                     }

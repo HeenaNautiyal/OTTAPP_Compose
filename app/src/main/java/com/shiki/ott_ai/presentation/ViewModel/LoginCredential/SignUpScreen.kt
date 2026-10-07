@@ -30,7 +30,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import com.shiki.ott_ai.presentation.Button.ButtonDesign
 import com.shiki.ott_ai.presentation.GlassTextField
-import com.shiki.ott_ai.presentation.ViewModel.common.colourTransactions
+import com.shiki.ott_ai.presentation.common.colourTransactions
 
 @Composable
 fun SignUpScreen(

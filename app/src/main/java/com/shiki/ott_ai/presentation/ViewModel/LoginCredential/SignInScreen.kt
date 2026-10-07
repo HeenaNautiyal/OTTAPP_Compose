@@ -38,7 +38,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.compose.rememberNavController
 import com.shiki.ott_ai.presentation.Button.ButtonDesign
 import com.shiki.ott_ai.presentation.GlassTextField
-import com.shiki.ott_ai.presentation.ViewModel.common.colourTransactions
+import com.shiki.ott_ai.presentation.common.colourTransactions
 
 @Composable
 fun SignInScreen(

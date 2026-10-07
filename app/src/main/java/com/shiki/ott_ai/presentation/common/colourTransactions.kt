@@ -1,4 +1,4 @@
-package com.shiki.ott_ai.presentation.ViewModel.common
+package com.shiki.ott_ai.presentation.common
 
 import androidx.compose.animation.animateColor
 import androidx.compose.animation.core.LinearEasing

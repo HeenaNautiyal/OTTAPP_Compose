@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "896663690865",
+    "project_id": "fcmtestproject-7ae75",
+    "storage_bucket": "fcmtestproject-7ae75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896663690865:android:2dc3dc2e461f70d4c445d0",
+        "android_client_info": {
+          "package_name": "com.shiki.ott_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwd8ASLkItzmClnPJABRs-ccSdifh1XJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
